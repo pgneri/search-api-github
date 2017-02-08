@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459A0BB7F8AF7E0CBFDEE608 /* Pods_githubaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA4524E98B77EE26A355DFA /* Pods_githubaseUITests.framework */; };
+		7636DA06BADE9C6C0430E572 /* Pods_githubaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FAD8559C4074D6902C1357 /* Pods_githubaseTests.framework */; };
 		80DF7FB11E4B892900B01665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF7FB01E4B892900B01665 /* AppDelegate.swift */; };
 		80DF7FB31E4B892900B01665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF7FB21E4B892900B01665 /* ViewController.swift */; };
 		80DF7FB61E4B892900B01665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DF7FB41E4B892900B01665 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		80DF7FBB1E4B892900B01665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DF7FB91E4B892900B01665 /* LaunchScreen.storyboard */; };
 		80DF7FC61E4B892900B01665 /* githubaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF7FC51E4B892900B01665 /* githubaseTests.swift */; };
 		80DF7FD11E4B892900B01665 /* githubaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF7FD01E4B892900B01665 /* githubaseUITests.swift */; };
+		F8C6B5B392016497B3FD9168 /* Pods_githubase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA16DFD79BEDFA2B43D4D08E /* Pods_githubase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BAE96C58E301069F8E968B6 /* Pods-githubaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubaseTests/Pods-githubaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80DF7FAD1E4B892900B01665 /* githubase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DF7FB01E4B892900B01665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DF7FB21E4B892900B01665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		80DF7FCC1E4B892900B01665 /* githubaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DF7FD01E4B892900B01665 /* githubaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubaseUITests.swift; sourceTree = "<group>"; };
 		80DF7FD21E4B892900B01665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0007258EE52E91A1298AF4F /* Pods-githubase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubase/Pods-githubase.debug.xcconfig"; sourceTree = "<group>"; };
+		AA16DFD79BEDFA2B43D4D08E /* Pods_githubase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA4524E98B77EE26A355DFA /* Pods_githubaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5DC8AEEA0A3259367FC95B /* Pods-githubase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubase.release.xcconfig"; path = "Pods/Target Support Files/Pods-githubase/Pods-githubase.release.xcconfig"; sourceTree = "<group>"; };
+		D0FAD8559C4074D6902C1357 /* Pods_githubaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DD944942EF3D81B15CDC0C /* Pods-githubaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-githubaseTests/Pods-githubaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2F1E8AEC7CD269E0661006B /* Pods-githubaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubaseUITests/Pods-githubaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9990156564D653EFC79AA0F /* Pods-githubaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-githubaseUITests/Pods-githubaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C6B5B392016497B3FD9168 /* Pods_githubase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7636DA06BADE9C6C0430E572 /* Pods_githubaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459A0BB7F8AF7E0CBFDEE608 /* Pods_githubaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				80DF7FC41E4B892900B01665 /* githubaseTests */,
 				80DF7FCF1E4B892900B01665 /* githubaseUITests */,
 				80DF7FAE1E4B892900B01665 /* Products */,
+				B3422EA500E741FE3574CDB0 /* Pods */,
+				B4C8EE9CC19D278463833361 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = githubaseUITests;
 			sourceTree = "<group>";
 		};
+		B3422EA500E741FE3574CDB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0007258EE52E91A1298AF4F /* Pods-githubase.debug.xcconfig */,
+				CF5DC8AEEA0A3259367FC95B /* Pods-githubase.release.xcconfig */,
+				0BAE96C58E301069F8E968B6 /* Pods-githubaseTests.debug.xcconfig */,
+				D3DD944942EF3D81B15CDC0C /* Pods-githubaseTests.release.xcconfig */,
+				E2F1E8AEC7CD269E0661006B /* Pods-githubaseUITests.debug.xcconfig */,
+				F9990156564D653EFC79AA0F /* Pods-githubaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4C8EE9CC19D278463833361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA16DFD79BEDFA2B43D4D08E /* Pods_githubase.framework */,
+				D0FAD8559C4074D6902C1357 /* Pods_githubaseTests.framework */,
+				BCA4524E98B77EE26A355DFA /* Pods_githubaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DF7FD51E4B892900B01665 /* Build configuration list for PBXNativeTarget "githubase" */;
 			buildPhases = (
+				AAC92F03AF37D05DD792F8FB /* [CP] Check Pods Manifest.lock */,
 				80DF7FA91E4B892900B01665 /* Sources */,
 				80DF7FAA1E4B892900B01665 /* Frameworks */,
 				80DF7FAB1E4B892900B01665 /* Resources */,
+				AE2F5979EAE7C3D033A7BA08 /* [CP] Embed Pods Frameworks */,
+				3FA663039B9B0E15835D19FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DF7FD81E4B892900B01665 /* Build configuration list for PBXNativeTarget "githubaseTests" */;
 			buildPhases = (
+				41AC93E8DCA1DECF25CF6D65 /* [CP] Check Pods Manifest.lock */,
 				80DF7FBD1E4B892900B01665 /* Sources */,
 				80DF7FBE1E4B892900B01665 /* Frameworks */,
 				80DF7FBF1E4B892900B01665 /* Resources */,
+				F0646C86A82F8CFFB5F02B31 /* [CP] Embed Pods Frameworks */,
+				1F075E569D0FB4F3CF637143 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DF7FDB1E4B892900B01665 /* Build configuration list for PBXNativeTarget "githubaseUITests" */;
 			buildPhases = (
+				16DB0095FCBAAFF0554C4251 /* [CP] Check Pods Manifest.lock */,
 				80DF7FC81E4B892900B01665 /* Sources */,
 				80DF7FC91E4B892900B01665 /* Frameworks */,
 				80DF7FCA1E4B892900B01665 /* Resources */,
+				3F20F60DAFA4582CE029FEA3 /* [CP] Embed Pods Frameworks */,
+				9BD06B7F0CEB98377263EFAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16DB0095FCBAAFF0554C4251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F075E569D0FB4F3CF637143 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubaseTests/Pods-githubaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F20F60DAFA4582CE029FEA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubaseUITests/Pods-githubaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA663039B9B0E15835D19FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubase/Pods-githubase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AC93E8DCA1DECF25CF6D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD06B7F0CEB98377263EFAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubaseUITests/Pods-githubaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC92F03AF37D05DD792F8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2F5979EAE7C3D033A7BA08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubase/Pods-githubase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0646C86A82F8CFFB5F02B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-githubaseTests/Pods-githubaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80DF7FA91E4B892900B01665 /* Sources */ = {
@@ -410,6 +597,7 @@
 		};
 		80DF7FD61E4B892900B01665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0007258EE52E91A1298AF4F /* Pods-githubase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -424,6 +612,7 @@
 		};
 		80DF7FD71E4B892900B01665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5DC8AEEA0A3259367FC95B /* Pods-githubase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -438,6 +627,7 @@
 		};
 		80DF7FD91E4B892900B01665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAE96C58E301069F8E968B6 /* Pods-githubaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		80DF7FDA1E4B892900B01665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DD944942EF3D81B15CDC0C /* Pods-githubaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +657,7 @@
 		};
 		80DF7FDC1E4B892900B01665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F1E8AEC7CD269E0661006B /* Pods-githubaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = githubaseUITests/Info.plist;
@@ -479,6 +671,7 @@
 		};
 		80DF7FDD1E4B892900B01665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9990156564D653EFC79AA0F /* Pods-githubaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = githubaseUITests/Info.plist;

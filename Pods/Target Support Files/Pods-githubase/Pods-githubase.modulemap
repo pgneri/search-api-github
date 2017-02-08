@@ -1,0 +1,6 @@
+framework module Pods_githubase {
+  umbrella header "Pods-githubase-umbrella.h"
+
+  export *
+  module * { export * }
+}
